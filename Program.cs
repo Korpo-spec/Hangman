@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.IO;
 
 namespace Hangman
 {
@@ -7,6 +8,9 @@ namespace Hangman
     {
         static void Main(string[] args)
         {
+
+            
+
             System.Console.Write("Välj ett ord:");
             string word = Console.ReadLine();
 
